@@ -1,10 +1,12 @@
 *{
 	font-family: Arial, Helvetica, sans-serif;
 }
-body {
-	background-image: url("https://bit.ly/2HsNVOt"); 
+body{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/ea/Glacier_Point_at_Sunset%2C_Yosemite_NP_banner.jpg");
+	background-color: #efefef;
+	background-repeat: no-repeat;
+	background-size: 100%, 14%
 }
-
 .sidenav {
     height: 100%; 
     width: 0; 
@@ -12,7 +14,7 @@ body {
     z-index: 1; 
     top: 0; 
     left: 0;
-    background-image: url ("https://cdn.wccftech.com/wp-content/uploads/2017/08/Android-Oreo-wallpapers-4-740x658.jpg"); 
+    background-image: url("https://www.clintonfitch.com/wp-content/uploads/2011/12/OS-X-Yosemite.jpg"); 
     overflow-x: hidden; 
     padding-top: 60px; 
     transition: 0.5s; 
@@ -22,14 +24,14 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #111111;
     display: block;
     transition: 0.3s;
 }
 
 
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: #ffffff;
 }
 
 
@@ -44,9 +46,11 @@ body {
 
 #main {
     transition: margin-left .5s;
-    padding: 20px;
+    padding: 20px; 
+	text-align: center;
 }
 
+}
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
