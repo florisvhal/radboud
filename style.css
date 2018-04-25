@@ -46,7 +46,7 @@ body{
     .sidenav a {font-size: 18px;}
 } 
 #main {
-    transition: margin-left .5s;
     padding: 20px; 
 	text-align: center;
+	height: 21%
 } 
